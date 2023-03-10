@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+     background-color: #333345;
+  }
+  
+  header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333366;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    
+  }
+  nav > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content : space-around;
+  width: 35vw;
+  }
+  div {display: block;}
+  
+  
+  
+  #hero {
+    display: flex;
+  }
+  
+  
+  li{
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+  nav{
+    display: block;
+    font-weight: 400;
+  }
+  a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 0.5rem;
+    font-family: sans-serif;;
+  }
+  .logo > img{
+    width: 100%;
+    height: 100%;
+    max-width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px
+  }
+  img{
+    overflow-clip-margin: content-box;
+      overflow: clip;
+  }
+  
+  .logo{
+    width: 60vw;
+  }
+  #hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+  }
+  #hero > h3{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+  
+  #hero input[type='email'] {
+    padding: 5px;
+    width: 100%;
+    max-width: 275px;
+  }
+  #hero input[type='submit']{
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #333366;
+    color: white;
+  } 
+  .btn {
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: 850;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+    height: 40px;
+    border: 3px black solid;
+  }
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  #cuco{
+    margin-top: 20px;
+  }
+  .grid {
+    display: flex;
+    flex-direction: row;
+  }
+  .fa{
+   font-weight: 900;
+   font-family: "Font Awesome 5 Free";
+   font-size: 3em;
+  
+  }
+  
+  
+  
+  #cuco .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: white;
+  }
+  #videos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  #videos > video {
+    width: 100%;
+    max-width: 560px;
+  }
+  #cuco .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+  h2{
+    display: block;
+    font-size: 1.5rem;
+       margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+     
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      
+  
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: calc(100% / 3);
+    }
+    .product > .level{
+  background-color: white;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform :uppercase;
+  font-weight: 700;
+    }
+    .product > h2 {
+      margin-top: 15px;
+    }
+    .product > ol{
+      margin: 15px 0;
+    }
+    .product > ol > li {
+      padding: 5px 0;
+    }
+    .product > button{
+      border: 0;
+      margin: 15px 0;
+      background-color: yellow;
+      font-weight:400;
+    }
+    #pricing {
+     
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+    footer{
+      margin-top: 30px;
+      background-color: #444444;
+      padding: 20px;
+      display: block;
+    }
+  
+  
+    
+    footer > ul > li {
+      padding: 0 10px;
+    }
+    footer > span  {
+      display: flex;
+      margin-top: 5px;
+      justify-content: flex-end;
+      font-size: 0.9em;
+      color: black;
+    }
+      footer > ul {
+      display:flex;
+      justify-content: flex-end;
+      
+      
+      }
+      footer > ul > li > a{
+        font-size: 17px;
+        
+      }
+    @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      body { line-height: 1.4 }
+    }
